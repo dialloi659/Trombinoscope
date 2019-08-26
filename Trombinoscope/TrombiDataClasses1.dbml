@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Trombinoscope" Class="TrombiDataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=127.0.0.1\sqlexpress;Initial Catalog=Trombinoscope;Persist Security Info=True;User ID=trombinoscope" SettingsObjectName="Trombinoscope.Properties.Settings" SettingsPropertyName="TrombinoscopeConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.GetAllContacts" Method="GetAllContacts">
+    <ElementType Name="GetAllContactsResult">
+      <Column Name="Nom" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Prenom" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Adresse" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Localite" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TelFixe" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Gsm" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Photo" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>
